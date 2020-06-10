@@ -1,0 +1,30 @@
+		C++ STL Coding Blocks Course
+
+1) Generic Programming using STL
+
+template<typename T>
+int search(T arr[], int n, T key)
+{
+for(int i=0;i<n;i++)
+{
+if(arr[p]==key)
+return p;
+}
+else 
+return -1;
+}
+
+int main()
+{
+int a[] = {1,2,3,4,5,7,8,9,10,20}
+
+int n = sizeof(a)/sizeof(int);
+int key = 10;
+
+cout<<search(a,n.key)<<endl;
+
+float b = {1.1, 2.1, 1.4, 3.4}
+float k = 1.1;
+cout<<search(b,3,k)<<endl;
+
+}
